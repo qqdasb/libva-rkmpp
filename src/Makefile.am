@@ -25,7 +25,7 @@
 rockchip_drv_video_la_LTLIBRARIES = rockchip_drv_video.la
 rockchip_drv_video_ladir = $(LIBVA_DRIVERS_PATH)
 rockchip_drv_video_la_LDFLAGS = -pthread -module -avoid-version -Wl,--no-undefined
-rockchip_drv_video_la_LIBADD = -lm -ldl -lrkenc-h264e
+rockchip_drv_video_la_LIBADD = -lm -ldl -lrockchip_mpp
 AM_CFLAGS = -fvisibility=hidden
 
 rockchip_drv_video_la_SOURCES = \
