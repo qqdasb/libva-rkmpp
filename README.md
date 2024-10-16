@@ -16,7 +16,7 @@ sudo make install
 2.Build libva
 ```bash
 git clone https://github.com/qqdasb/libva-rkmpp.git
-mkdir -p libva-rkmpp/build && cd libva-rkmpp/build
+cd libva-rkmpp
 ./autogen.sh --{Your libva flags}
 make -j$(nproc --all)
 sudo make install
